@@ -10,3 +10,39 @@ body{
     margin-top: 10px;
     width: 20px;
 }
+.topbar .navbar{
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar .navbar ul{
+    list-style: none;
+
+}
+.topbar .prev-next-button button{
+    color: antiquewhite;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: black;
+    margin-right: 10px;
+}
+.topbar .navbar ul li{
+    display: inline-block;
+    margin: 0px 8px;
+}
+.topbar .navbar ul li a {
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 11px;
+
+}
+.topbar .navbar ul li a:hover{
+    color: white;
+    font-size: 15px;
+}
